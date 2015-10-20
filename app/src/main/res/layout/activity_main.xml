@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget38"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Kapanlagi"
+        android:background="@drawable/kapanlagi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Merdeka"
+        android:background="@drawable/merdeka"
+        android:layout_below="@+id/Kapanlagi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bola"
+        android:background="@drawable/bola"
+        android:layout_below="@+id/Merdeka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Brilio"
+        android:background="@drawable/brilio"
+        android:layout_below="@+id/Bola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Fimela"
+        android:background="@drawable/fimela"
+        android:layout_below="@+id/Brilio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Vemale"
+        android:background="@drawable/vemale"
+        android:layout_below="@+id/Fimela"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+</RelativeLayout>
