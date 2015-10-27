@@ -1,6 +1,5 @@
 package com.kapanlaginetwork.johnharman;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -10,15 +9,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
 
-public class Kapanlagi extends AppCompatActivity
+public class Merdeka extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kapanlagi_activity);
+        setContentView(R.layout.merdeka_activity);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,8 +27,8 @@ public class Kapanlagi extends AppCompatActivity
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });*/
-
+        });
+*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -54,11 +52,11 @@ public class Kapanlagi extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.kapanlagi, menu);
+        getMenuInflater().inflate(R.menu.merdeka, menu);
         return true;
     }
 
-   /* @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -73,40 +71,53 @@ public class Kapanlagi extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }*/
 
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.kapanlagi_front_page) {
-            startActivity(new Intent(Kapanlagi.this, MainActivity.class));
+        if (id == R.id.merdeka_front_page) {
+            // Handle the camera action
+        } else if (id == R.id.merdeka_all_news) {
 
-     //MENU UTAMA
-        } else if (id == R.id.kapanlagi_all_news) {
-            //startActivity(new Intent(Kapanlagi.this,));
+        } else if (id == R.id.merdeka_top_news) {
 
-        } else if (id == R.id.kapanlagi_top_news) {
+        } else if (id == R.id.merdeka_foto) {
 
-        } else if (id == R.id.kapanlagi_foto) {
-// KATEGORI KAPANLAGI
-        } else if (id == R.id.kapanlagi_selebriti) {
+        } else if (id == R.id.merdeka_peristiwa) {
 
-        } else if (id == R.id.kapanlagi_hollywood) {
+        } else if (id == R.id.merdeka_politik) {
 
-        } else if (id == R.id.kapanlagi_film) {
+        } else if (id == R.id.merdeka_jakarta) {
 
-        } else if (id == R.id.kapanlagi_music) {
+        } else if (id == R.id.merdeka_uang) {
 
-        } else if (id == R.id.kapanlagi_asian_star) {
+        } else if (id == R.id.merdeka_dunia) {
 
-        } else if (id == R.id.kapanlagi_bollywood) {
+        } else if (id == R.id.merdeka_khas) {
 
-        } else if (id == R.id.kapanlagi_kapanlagi_plus) {
+        } else if (id == R.id.merdeka_gaya) {
 
-        } else if (id == R.id.kapanlagi_lifestyle) {
+        } else if (id == R.id.merdeka_artis) {
 
+        } else if (id == R.id.merdeka_olahraga) {
+
+        } else if (id == R.id.merdeka_sepakbola) {
+
+        } else if (id == R.id.merdeka_tegnologi) {
+
+        } else if (id == R.id.merdeka_sehat) {
+
+        } else if (id == R.id.merdeka_otomotif) {
+
+        } else if (id == R.id.merdeka_pengaturan) {
+
+        } else if (id == R.id.merdeka_rating) {
+
+        } else if (id == R.id.merdeka_hak_cipta) {
+
+        } else if (id == R.id.merdeka_tentang_kami) {
 
         }
 

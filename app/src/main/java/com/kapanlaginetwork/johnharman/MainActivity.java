@@ -4,7 +4,6 @@ import android.app.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
@@ -50,26 +49,26 @@ public class MainActivity extends Activity implements OnClickListener {
                 startActivity(new Intent(MainActivity.this, Kapanlagi.class));
                 break;
 
-            /*case R.id.Merdeka:
+           case R.id.Merdeka:
                 startActivity(new Intent(MainActivity.this, Merdeka.class));
                 break;
 
-            case R.id.Bola:
-                startActivity(new Intent(MainActivity.this, Bola.class));
+           /* case R.id.Bola:
+                startActivity(new Intent(MainActivity.this, Kapanlagi.class));
                 break;
 
             case R.id.Brilio:
-                startActivity(new Intent(MainActivity.this, Brilio.class));
+                startActivity(new Intent(MainActivity.this, Kapanlagi.class));
                 break;
 
             case R.id.Fimela:
-                startActivity(new Intent(MainActivity.this, Fimela.class));
+                startActivity(new Intent(MainActivity.this, Kapanlagi.class));
                 break;
 
             case R.id.Vemale:
-                startActivity(new Intent(MainActivity.this, Vemale.class));
-                break;
-*/
+                startActivity(new Intent(MainActivity.this, Kapanlagi.class));
+                break;*/
+
                         default:
                             break;
                     }
