@@ -3,9 +3,25 @@
     <!--<string name="action_settings">Settings</string>-->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--|
+        |
+        |-->
 
-    <!-- Menu Kapanlagi-->
+    <!--Kapanlagi title-->
     <string name="title_activity_kapanlagi">Kapanlagi.com</string>
+    <string name="title_activity_kapanlagi_front_page">Front </string>
+    <string name="title_activity_kapanlagi_all_news">All News</string>
+    <string name="title_activity_kapanlagi_top_news">Top News</string>
+    <string name="title_activity_kapanlagi_foto">Foto</string>
+    <string name="title_activity_kapanlagi_selebriti">Selebriti</string>
+    <string name="title_activity_kapanlagi_hollywood">Hollywood</string>
+    <string name="title_activity_kapanlagi_film">Film</string>
+    <string name="title_activity_kapanlagi_music">Music</string>
+    <string name="title_activity_kapanlagi_asian">Asian Star</string>
+    <string name="title_activity_kapanlagi_bollywood">Bollywood</string>
+    <string name="title_activity_kapanlagi_kapanlagi_plus">Kapanlagi Plus</string>
+    <string name="title_activity_kapanlagi_lifestyle">Lifestyle</string>
+           <!-- Menu Kapanlagi-->
     <string name="kapanlagi_front_page">Front </string>
     <string name="kapanlagi_all_news">All News</string>
     <string name="kapanlagi_top_news">Top News</string>
@@ -19,12 +35,33 @@
     <string name="kapanlagi_bollywood">Bollywood</string>
     <string name="kapanlagi_kapanlagi_plus">Kapanlagi Plus</string>
     <string name="kapanlagi_lifestyle">lifestyle</string>
+    <!--|
+        |
+        |-->
 
-
-
-    <!--Menu Merdeka-->
+   <!--Merdeka Title-->
     <string name="title_activity_merdeka">Merdeka.com</string>
-
+    <string name="title_activity_merdeka__peristiwa">Peristiwa</string>
+    <string name="title_activity_merdeka__politik"> Politik</string>
+    <string name="title_activity_merdeka__jakarta"> Jakarta</string>
+    <string name="title_activity_merdeka__uang">Uang</string>
+    <string name="title_activity_merdeka__dunia"> Dunia</string>
+    <string name="title_activity_merdeka__khas"> Khas</string>
+    <string name="title_activity_merdeka__gaya"> Gaya</string>
+    <string name="title_activity_merdeka__artis"> Artis</string>
+    <string name="title_activity_merdeka__olahraga"> Olahraga</string>
+    <string name="title_activity_merdeka__sepakbola"> Sepakbola</string>
+    <string name="title_activity_merdeka__tegnologi"> Tegnologi</string>
+    <string name="title_activity_merdeka__sehat"> Sehat</string>
+    <string name="title_activity_merdeka__otomotif"> Otomotif</string>
+    <string name="title_activity_merdeka__all__news"> All News</string>
+    <string name="title_activity_merdeka__top__news"> Top News</string>
+    <string name="title_activity_merdeka__foto"> Foto</string>
+    <string name="title_activity_merdeka__pengaturan"> Pengaturan</string>
+    <string name="title_activity_merdeka__hak__cipta"> Hak Cipta</string>
+    <string name="title_activity_merdeka__tentang__kami"> Tentang Kami</string>
+    <string name="title_activity_merdeka__rating"> Rating</string>
+    <!--Menu Merdeka-->
     <string name="merdeka_front_page">Front Page</string>
     <string name="merdeka_all_news">All News</string>
     <string name="merdeka_top_news">Top News</string>
@@ -48,6 +85,50 @@
     <string name="merdeka_rating">Rating</string>
     <string name="merdeka_hak_cipta">Hak Cipta</string>
     <string name="merdeka_tentang_kami">Tentang Kami</string>
+    <string name="action_settings">Settings</string>
+
+    <!--|
+        |
+        |-->
+
+
+   <!--Bolanet Title-->
+    <string name="title_activity_bola_frontpage">Frontpage</string>
+    <string name="title_activity_bola">Bola</string>
+    <string name="title_activity_bola__berita">Berita</string>
+    <string name="title_activity_bola__jadwal">Jadwal</string>
+    <string name="title_activity_bola__skor">Skor</string>
+    <string name="title_activity_bola__klasemen">Klasemen</string>
+    <string name="title_activity_bola__terkini">Terkini</string>
+    <string name="title_activity_bola__most__viewed">Most_Viewed</string>
+    <string name="title_activity_bola__liga__premier__ingrris">Liga Premier Inggris</string>
+    <string name="title_activity_bola__liga__italia__seri_a">Liga Italia Seri A</string>
+    <string name="title_activity_bola__la__liga__spanyol">La Liga Spanyol</string>
+    <string name="title_activity_bola__liga__champions">Liga Champions</string>
+    <string name="title_activity_bola__liga__eropa">Liga Eropa</string>
+    <string name="title_activity_bola__piala__dunia">Piala Dunia</string>
+    <string name="title_activity_bola__liga__indonesia">Liga Indonesia</string>
+    <!--Menu Utama-->
+    <string name="bola_front_page">Front Page</string>
+    <string name="bola_berita">Berita</string>
+    <string name="bola_jadwal">Jadwal</string>
+    <string name="bola_klasemen">Klasemen</string>
+    <string name="bola_skor">Skor</string>
+    <!--Kategori Bola-->
+    <string name="bola_terkini">Terkini</string>
+    <string name="bola_most_viewed">Most_Viewed</string>
+    <string name="bola_liga_premiere_inggris">Liga Premiere Inggris</string>
+    <string name="bola_liga_italia_seri_a">Liga Italia Seri A</string>
+    <string name="bola_la_liga_spanyol">La Liga Spanyol</string>
+    <string name="bola_liga_champions">Liga Champions</string>
+    <string name="bola_liga_eropa">Liga Eropa</string>
+    <string name="bola_piala_dunia">Piala Dunia</string>
+    <string name="bola_liga_indonesia">Liga Indonesia</string>
+
+    <!--Belum Ada Pilihan-->
+    <string name="title_activity_brilio">Brilio</string>
+    <string name="title_activity_fimela">Fimela</string>
+
 
 
 </resources>
