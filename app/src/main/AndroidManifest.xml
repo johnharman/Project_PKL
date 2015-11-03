@@ -40,7 +40,8 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
-        <!-- Kategori Kapanlagi -->
+
+<!--|||||||||||||||||||||||||||||||||||KAPANLAGI||||||||||||||||||||||||||||||||-->
         <activity
             android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_All_News"
             android:label="@string/title_activity_kapanlagi_all_news"
@@ -130,10 +131,10 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
 
-        <!-- Kategori Merdeka -->
+<!--|||||||||||||||||||||||||||||||||||MERDEKA||||||||||||||||||||||||||||||||-->
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Peristiwa"
-            android:label="@string/title_activity_merdeka__peristiwa"
+            android:label="@string/title_activity_merdeka_peristiwa"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -141,7 +142,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Politik"
-            android:label="@string/title_activity_merdeka__politik"
+            android:label="@string/title_activity_merdeka_politik"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -149,7 +150,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Jakarta"
-            android:label="@string/title_activity_merdeka__jakarta"
+            android:label="@string/title_activity_merdeka_jakarta"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -157,7 +158,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Uang"
-            android:label="@string/title_activity_merdeka__uang"
+            android:label="@string/title_activity_merdeka_uang"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -165,7 +166,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Dunia"
-            android:label="@string/title_activity_merdeka__dunia"
+            android:label="@string/title_activity_merdeka_dunia"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -173,7 +174,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Khas"
-            android:label="@string/title_activity_merdeka__khas"
+            android:label="@string/title_activity_merdeka_khas"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -181,7 +182,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Gaya"
-            android:label="@string/title_activity_merdeka__gaya"
+            android:label="@string/title_activity_merdeka_gaya"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -189,7 +190,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Artis"
-            android:label="@string/title_activity_merdeka__artis"
+            android:label="@string/title_activity_merdeka_artis"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -197,7 +198,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Olahraga"
-            android:label="@string/title_activity_merdeka__olahraga"
+            android:label="@string/title_activity_merdeka_olahraga"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -205,7 +206,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sepakbola"
-            android:label="@string/title_activity_merdeka__sepakbola"
+            android:label="@string/title_activity_merdeka_sepakbola"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -213,7 +214,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Tegnologi"
-            android:label="@string/title_activity_merdeka__tegnologi"
+            android:label="@string/title_activity_merdeka_tegnologi"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -221,7 +222,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sehat"
-            android:label="@string/title_activity_merdeka__sehat"
+            android:label="@string/title_activity_merdeka_sehat"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -229,7 +230,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Otomotif"
-            android:label="@string/title_activity_merdeka__otomotif"
+            android:label="@string/title_activity_merdeka_otomotif"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -237,7 +238,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_All_News"
-            android:label="@string/title_activity_merdeka__all__news"
+            android:label="@string/title_activity_merdeka_all_news"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -245,7 +246,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_Top_News"
-            android:label="@string/title_activity_merdeka__top__news"
+            android:label="@string/title_activity_merdeka_top_news"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -253,7 +254,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_Foto"
-            android:label="@string/title_activity_merdeka__foto"
+            android:label="@string/title_activity_merdeka_foto"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -261,7 +262,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Pengaturan"
-            android:label="@string/title_activity_merdeka__pengaturan"
+            android:label="@string/title_activity_merdeka_pengaturan"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -269,7 +270,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Hak_Cipta"
-            android:label="@string/title_activity_merdeka__hak__cipta"
+            android:label="@string/title_activity_merdeka_hak_cipta"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -277,7 +278,7 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Tentang_Kami"
-            android:label="@string/title_activity_merdeka__tentang__kami"
+            android:label="@string/title_activity_merdeka_tentang_kami"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -285,12 +286,120 @@
         </activity>
         <activity
             android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Rating"
-            android:label="@string/title_activity_merdeka__rating"
+            android:label="@string/title_activity_merdeka_rating"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
+
+<!--|||||||||||||||||||||||||||||||||||BOLANET||||||||||||||||||||||||||||||||-->
+
+        <activity
+            android:name=".DrawerBola.MenuBola.Bola_Berita"
+            android:label="@string/title_activity_bola_berita"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.MenuBola.Bola_Jadwal"
+            android:label="@string/title_activity_bola_jadwal"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.MenuBola.Bola_Skor"
+            android:label="@string/title_activity_bola_skor"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.MenuBola.Bola_Klasemen"
+            android:label="@string/title_activity_bola_klasemen"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Terkini"
+            android:label="@string/title_activity_bola_terkini"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Most_Viewed"
+            android:label="@string/title_activity_bola_most_viewed"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Premier_Ingrris"
+            android:label="@string/title_activity_bola_liga_premier_ingrris"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Italia_Seri_A"
+            android:label="@string/title_activity_bola_liga_italia_seri_a"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_La_Liga_Spanyol"
+            android:label="@string/title_activity_bola_la_liga_spanyol"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Champions"
+            android:label="@string/title_activity_bola_liga_champions"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Eropa"
+            android:label="@string/title_activity_bola_liga_eropa"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Piala_Dunia"
+            android:label="@string/title_activity_bola_piala_dunia"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+        <activity
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Indonesia"
+            android:label="@string/title_activity_bola_liga_indonesia"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Bola" />
+        </activity>
+
         <!--<activity
             android:name=".Main.Brilio"
             android:label="@string/title_activity_brilio"
@@ -302,123 +411,6 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>-->
 
-        <activity
-            android:name=".DrawerBola.MenuBola.Bola_Berita"
-            android:label="@string/title_activity_bola__berita"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.MenuBola.Bola_Jadwal"
-            android:label="@string/title_activity_bola__jadwal"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.MenuBola.Bola_Skor"
-            android:label="@string/title_activity_bola__skor"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.MenuBola.Bola_Klasemen"
-            android:label="@string/title_activity_bola__klasemen"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Terkini"
-            android:label="@string/title_activity_bola__terkini"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Most_Viewed"
-            android:label="@string/title_activity_bola__most__viewed"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Premier_Ingrris"
-            android:label="@string/title_activity_bola__liga__premier__ingrris"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Italia_Seri_A"
-            android:label="@string/title_activity_bola__liga__italia__seri_a"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_La_Liga_Spanyol"
-            android:label="@string/title_activity_bola__la__liga__spanyol"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Champions"
-            android:label="@string/title_activity_bola__liga__champions"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Eropa"
-            android:label="@string/title_activity_bola__liga__eropa"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Piala_Dunia"
-            android:label="@string/title_activity_bola__piala__dunia"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
-        <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Indonesia"
-            android:label="@string/title_activity_bola__liga__indonesia"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Main.Merdeka" />
-        </activity>
     </application>
 
-</manifest><!--
-=======
-    <manifest xmlns:android="http://schemas.android.com/apk/res/android" >
-
-        <application>
-            <activity android:name="com.kapanlaginetwork.johnharman.main.Kapanlagi"
-                        android:label="@string/title_activity_kapanlagi"
-                    android:theme="@style/AppTheme.NoActionBar"
-    >
-            </activity>
-        </application>
-    </manifest>
-    >>>>>>> Added
--->
+</manifest>

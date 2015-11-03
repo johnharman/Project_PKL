@@ -99,7 +99,7 @@ public class Kapanlagi extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.kapanlagi_front_page) {
-            startActivity(new Intent(Kapanlagi.this, MainActivity.class));
+            startActivity(new Intent(this, MainActivity.class));
 
      //MENU UTAMA
         } else if (id == R.id.kapanlagi_all_news) {

@@ -5,52 +5,52 @@
     <!-- MERDEKA MENU-->
     <group android:checkableBehavior="single">
         <item android:id="@+id/merdeka_front_page" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/merdeka_front_page" />
+            android:title="@string/title_activity_merdeka_front_page" />
         <item android:id="@+id/merdeka_all_news" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/merdeka_all_news" />
+            android:title="@string/title_activity_merdeka_all_news" />
         <item android:id="@+id/merdeka_top_news" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/merdeka_top_news" />
+            android:title="@string/title_activity_merdeka_top_news" />
         <item android:id="@+id/merdeka_foto" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/merdeka_foto" />
+            android:title="@string/title_activity_merdeka_foto" />
     </group>
     <item android:title="KATEGORI">
         <menu>
             <item android:id="@+id/merdeka_peristiwa" android:icon="@android:drawable/ic_menu_share"
-                android:title="@string/merdeka_peristiwa" />
+                android:title="@string/title_activity_merdeka_peristiwa" />
             <item android:id="@+id/merdeka_politik" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_politik" />
+                android:title="@string/title_activity_merdeka_politik" />
             <item android:id="@+id/merdeka_jakarta" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_jakarta" />
+                android:title="@string/title_activity_merdeka_jakarta" />
             <item android:id="@+id/merdeka_uang" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_uang" />
+                android:title="@string/title_activity_merdeka_uang" />
             <item android:id="@+id/merdeka_dunia" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_dunia" />
+                android:title="@string/title_activity_merdeka_dunia" />
             <item android:id="@+id/merdeka_khas" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_khas" />
+                android:title="@string/title_activity_merdeka_khas" />
             <item android:id="@+id/merdeka_gaya" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_gaya" />
+                android:title="@string/title_activity_merdeka_gaya" />
             <item android:id="@+id/merdeka_artis" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_artis" />
+                android:title="@string/title_activity_merdeka_artis" />
             <item android:id="@+id/merdeka_olahraga" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_olahraga" />
+                android:title="@string/title_activity_merdeka_olahraga" />
             <item android:id="@+id/merdeka_sepakbola" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_sepakbola" />
+                android:title="@string/title_activity_merdeka_sepakbola" />
             <item android:id="@+id/merdeka_tegnologi" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_tegnologi" />
+                android:title="@string/title_activity_merdeka_tegnologi" />
             <item android:id="@+id/merdeka_sehat" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_sehat" />
+                android:title="@string/title_activity_merdeka_sehat" />
             <item android:id="@+id/merdeka_otomotif" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_otomotif" />
+                android:title="@string/title_activity_merdeka_otomotif" />
 
            <item android:title="LAIN-LAIN"/>
             <item android:id="@+id/merdeka_pengaturan" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_pengaturan" />
+                android:title="@string/title_activity_merdeka_pengaturan" />
             <item android:id="@+id/merdeka_rating" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_rating" />
+                android:title="@string/title_activity_merdeka_rating" />
             <item android:id="@+id/merdeka_hak_cipta" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_hak_cipta" />
+                android:title="@string/title_activity_merdeka_hak_cipta" />
             <item android:id="@+id/merdeka_tentang_kami" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/merdeka_tentang_kami" />
+                android:title="@string/title_activity_merdeka_tentang_kami" />
 
         </menu>
     </item>

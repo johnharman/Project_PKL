@@ -4,32 +4,32 @@
     <!-- KAPANLAGI MENU-->
     <group android:checkableBehavior="single">
         <item android:id="@+id/kapanlagi_front_page" android:icon="@mipmap/ic_launcher"
-            android:title="@string/kapanlagi_front_page" />
+            android:title="@string/title_activity_kapanlagi_front_page" />
         <item android:id="@+id/kapanlagi_all_news" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/kapanlagi_all_news" />
+            android:title="@string/title_activity_kapanlagi_all_news" />
         <item android:id="@+id/kapanlagi_top_news" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/kapanlagi_top_news" />
+            android:title="@string/title_activity_kapanlagi_top_news" />
         <item android:id="@+id/kapanlagi_foto" android:icon="@android:drawable/ic_menu_camera"
-            android:title="@string/kapanlagi_foto" />
+            android:title="@string/title_activity_kapanlagi_foto" />
     </group>
     <item android:title="KATEGORI">
         <menu>
             <item android:id="@+id/kapanlagi_selebriti" android:icon="@android:drawable/ic_menu_share"
-                android:title="@string/kapanlagi_selebriti" />
+                android:title="@string/title_activity_kapanlagi_selebriti" />
             <item android:id="@+id/kapanlagi_hollywood" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_hollywood" />
+                android:title="@string/title_activity_kapanlagi_hollywood" />
             <item android:id="@+id/kapanlagi_film" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_film" />
+                android:title="@string/title_activity_kapanlagi_film" />
             <item android:id="@+id/kapanlagi_music" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_music" />
+                android:title="@string/title_activity_kapanlagi_music" />
             <item android:id="@+id/kapanlagi_asian_star" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_asian" />
+                android:title="@string/title_activity_kapanlagi_asian" />
             <item android:id="@+id/kapanlagi_bollywood" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_bollywood" />
+                android:title="@string/title_activity_kapanlagi_bollywood" />
             <item android:id="@+id/kapanlagi_kapanlagi_plus" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_kapanlagi_plus" />
+                android:title="@string/title_activity_kapanlagi_kapanlagi_plus" />
             <item android:id="@+id/kapanlagi_lifestyle" android:icon="@android:drawable/ic_menu_send"
-                android:title="@string/kapanlagi_lifestyle" />
+                android:title="@string/title_activity_kapanlagi_lifestyle" />
         </menu>
     </item>
 

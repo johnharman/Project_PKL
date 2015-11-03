@@ -1,0 +1,54 @@
+<com.kapanlaginetwork.johnharman.Main.DashboardLayoutActivityMain
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/Kapanlagi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/kapanlagi"
+        android:text="Kapanlagi.com" />
+
+   <Button
+        android:id="@+id/Merdeka"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/merdeka"
+        android:text="Merdeka.com" />
+
+    <Button
+        android:id="@+id/Bola"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bola"
+        android:text="Bola.net" />
+
+    <Button
+        android:id="@+id/Vemale"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/vemale"
+        android:text="Vemale.com" />
+
+    <Button
+        android:id="@+id/Fimela"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/fimela"
+        android:text="Fimela.com" />
+
+    <Button
+        android:id="@+id/Brilio"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/brilio"
+        android:text="Brilio.net" />
+    <!--<Button
+        android:id="@+id/btn_tmusik"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tokomusik"
+        android:text="Toko Musik" />
+    <Button
+        android:id="@+id/btn_kpemerintah"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/kantorpemerintah"
+        android:text="Kantor Pemerintah" />-->
+
+</com.kapanlaginetwork.johnharman.Main.DashboardLayoutActivityMain>
