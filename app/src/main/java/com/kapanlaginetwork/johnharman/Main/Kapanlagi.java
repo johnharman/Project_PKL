@@ -12,17 +12,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.kapanlaginetwork.johnharman.R;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Asian_Star;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Bollywood;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Film;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Hollywood;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Lifestyle;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Music;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Plus;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Selebriti;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.Kapanlagi_All_News;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Foto;
-import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Top_News;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiAsianStar;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiBollywood;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiFilm;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiHollywood;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiLifestyle;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiMusic;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiPlus;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.KapanlagiSelebriti;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.KapanlagiAllNews;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.KapanlagiFoto;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.MenuKapanlagi.KapanlagiTopNews;
 
 public class Kapanlagi extends AppCompatActivity
 
@@ -103,38 +103,38 @@ public class Kapanlagi extends AppCompatActivity
 
      //MENU UTAMA
         } else if (id == R.id.kapanlagi_all_news) {
-            startActivity(new Intent(this, Kapanlagi_All_News.class));
+            startActivity(new Intent(this, KapanlagiAllNews.class));
 
         } else if (id == R.id.kapanlagi_top_news) {
-            startActivity(new Intent(this, Kapanlagi_Top_News.class));
+            startActivity(new Intent(this, KapanlagiTopNews.class));
 
         } else if (id == R.id.kapanlagi_foto) {
-            startActivity(new Intent(this, Kapanlagi_Foto.class));
+            startActivity(new Intent(this, KapanlagiFoto.class));
 
 // KATEGORI KAPANLAGI
         } else if (id == R.id.kapanlagi_selebriti) {
-            startActivity(new Intent(this, Kapanlagi_Selebriti.class));
+            startActivity(new Intent(this, KapanlagiSelebriti.class));
 
         } else if (id == R.id.kapanlagi_hollywood) {
-            startActivity(new Intent(this, Kapanlagi_Hollywood.class));
+            startActivity(new Intent(this, KapanlagiHollywood.class));
 
         } else if (id == R.id.kapanlagi_film) {
-            startActivity(new Intent(this, Kapanlagi_Film.class));
+            startActivity(new Intent(this, KapanlagiFilm.class));
 
         } else if (id == R.id.kapanlagi_music) {
-            startActivity(new Intent(this, Kapanlagi_Music.class));
+            startActivity(new Intent(this, KapanlagiMusic.class));
 
         } else if (id == R.id.kapanlagi_asian_star) {
-            startActivity(new Intent(this, Kapanlagi_Asian_Star.class));
+            startActivity(new Intent(this, KapanlagiAsianStar.class));
 
         } else if (id == R.id.kapanlagi_bollywood) {
-            startActivity(new Intent(this, Kapanlagi_Bollywood.class));
+            startActivity(new Intent(this, KapanlagiBollywood.class));
 
         } else if (id == R.id.kapanlagi_kapanlagi_plus) {
-            startActivity(new Intent(this, Kapanlagi_Plus.class));
+            startActivity(new Intent(this, KapanlagiPlus.class));
 
         } else if (id == R.id.kapanlagi_lifestyle) {
-            startActivity(new Intent(this, Kapanlagi_Lifestyle.class));
+            startActivity(new Intent(this, KapanlagiLifestyle.class));
 
 
         }

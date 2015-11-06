@@ -40,6 +40,8 @@ public class MainActivity extends Activity {
 
         Button fimela = (Button) findViewById(R.id.Fimela);
 
+        //Button otosia = (Button) findViewById(R.id.Otosia);
+
         /* Button btn_ptinggi = (Button) findViewById(R.id.btn_ptinggi);
 
         Button btn_tmusik = (Button) findViewById(R.id.btn_tmusik);
@@ -83,9 +85,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                //--aksi tombol RS
-                Intent i = new Intent(MainActivity.this, Brilio.class);
-                //startActivity(i);
+                startActivity(new Intent(MainActivity.this, Brilio.class));
             }
         });
 
@@ -97,6 +97,13 @@ public class MainActivity extends Activity {
             }
         });
 
+        /*otosia.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, Otosia.class);
+            }
+        });*/
        /* vemale.setOnClickListener(new View.OnClickListener() {
 
             @Override

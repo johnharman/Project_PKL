@@ -40,10 +40,9 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
-
-<!--|||||||||||||||||||||||||||||||||||KAPANLAGI||||||||||||||||||||||||||||||||-->
+        <!-- |||||||||||||||||||||||||||||||||||KAPANLAGI|||||||||||||||||||||||||||||||| -->
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_All_News"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiAllNews"
             android:label="@string/title_activity_kapanlagi_all_news"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -51,7 +50,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Top_News"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiTopNews"
             android:label="@string/title_activity_kapanlagi_top_news"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -59,7 +58,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Foto"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiFoto"
             android:label="@string/title_activity_kapanlagi_foto"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -67,7 +66,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Selebriti"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiSelebriti"
             android:label="@string/title_activity_kapanlagi_selebriti"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -75,7 +74,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Hollywood"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiHollywood"
             android:label="@string/title_activity_kapanlagi_hollywood"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -83,7 +82,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Film"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiFilm"
             android:label="@string/title_activity_kapanlagi_film"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -91,7 +90,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Music"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiMusic"
             android:label="@string/title_activity_kapanlagi_music"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -99,7 +98,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Asian_Star"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiAsianStar"
             android:label="@string/title_activity_kapanlagi_asian"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -107,7 +106,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Bollywood"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiBollywood"
             android:label="@string/title_activity_kapanlagi_bollywood"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -115,7 +114,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Plus"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiPlus"
             android:label="@string/title_activity_kapanlagi_kapanlagi_plus"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -123,7 +122,7 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Lifestyle"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiLifestyle"
             android:label="@string/title_activity_kapanlagi_lifestyle"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -131,9 +130,9 @@
                 android:value=".Main.Kapanlagi" />
         </activity>
 
-<!--|||||||||||||||||||||||||||||||||||MERDEKA||||||||||||||||||||||||||||||||-->
+        <!-- |||||||||||||||||||||||||||||||||||MERDEKA|||||||||||||||||||||||||||||||| -->
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Peristiwa"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaPeristiwa"
             android:label="@string/title_activity_merdeka_peristiwa"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -141,7 +140,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Politik"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaPolitik"
             android:label="@string/title_activity_merdeka_politik"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -149,7 +148,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Jakarta"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaJakarta"
             android:label="@string/title_activity_merdeka_jakarta"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -157,7 +156,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Uang"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaUang"
             android:label="@string/title_activity_merdeka_uang"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -165,7 +164,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Dunia"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaDunia"
             android:label="@string/title_activity_merdeka_dunia"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -173,7 +172,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Khas"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaKhas"
             android:label="@string/title_activity_merdeka_khas"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -181,7 +180,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Gaya"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaGaya"
             android:label="@string/title_activity_merdeka_gaya"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -189,7 +188,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Artis"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaArtis"
             android:label="@string/title_activity_merdeka_artis"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -197,7 +196,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Olahraga"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaOlahraga"
             android:label="@string/title_activity_merdeka_olahraga"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -205,7 +204,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sepakbola"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaSepakbola"
             android:label="@string/title_activity_merdeka_sepakbola"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -213,7 +212,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Tegnologi"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaTegnologi"
             android:label="@string/title_activity_merdeka_tegnologi"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -221,7 +220,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sehat"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaSehat"
             android:label="@string/title_activity_merdeka_sehat"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -229,7 +228,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Otomotif"
+            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaOtomotif"
             android:label="@string/title_activity_merdeka_otomotif"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -261,7 +260,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Pengaturan"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaPengaturan"
             android:label="@string/title_activity_merdeka_pengaturan"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -269,7 +268,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Hak_Cipta"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaHakCipta"
             android:label="@string/title_activity_merdeka_hak_cipta"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -277,7 +276,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Tentang_Kami"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaTentangKami"
             android:label="@string/title_activity_merdeka_tentang_kami"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -285,7 +284,7 @@
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Rating"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaRating"
             android:label="@string/title_activity_merdeka_rating"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -293,10 +292,10 @@
                 android:value=".Main.Merdeka" />
         </activity>
 
-<!--|||||||||||||||||||||||||||||||||||BOLANET||||||||||||||||||||||||||||||||-->
+        <!-- |||||||||||||||||||||||||||||||||||BOLANET|||||||||||||||||||||||||||||||| -->
 
         <activity
-            android:name=".DrawerBola.MenuBola.Bola_Berita"
+            android:name=".DrawerBola.MenuBola.BolaBerita"
             android:label="@string/title_activity_bola_berita"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -304,7 +303,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.Bola_Jadwal"
+            android:name=".DrawerBola.MenuBola.BolaJadwal"
             android:label="@string/title_activity_bola_jadwal"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -312,7 +311,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.Bola_Skor"
+            android:name=".DrawerBola.MenuBola.BolaSkor"
             android:label="@string/title_activity_bola_skor"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -320,7 +319,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.Bola_Klasemen"
+            android:name=".DrawerBola.MenuBola.BolaKlasemen"
             android:label="@string/title_activity_bola_klasemen"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -328,7 +327,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Terkini"
+            android:name=".DrawerBola.KategoriBola.BolaTerkini"
             android:label="@string/title_activity_bola_terkini"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -336,7 +335,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Most_Viewed"
+            android:name=".DrawerBola.KategoriBola.BolaMostViewed"
             android:label="@string/title_activity_bola_most_viewed"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -344,7 +343,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Premier_Ingrris"
+            android:name=".DrawerBola.KategoriBola.BolaLigaPremierIngrris"
             android:label="@string/title_activity_bola_liga_premier_ingrris"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -352,7 +351,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Italia_Seri_A"
+            android:name=".DrawerBola.KategoriBola.BolaLigaItaliaSeriA"
             android:label="@string/title_activity_bola_liga_italia_seri_a"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -360,7 +359,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_La_Liga_Spanyol"
+            android:name=".DrawerBola.KategoriBola.BolaLaLigaSpanyol"
             android:label="@string/title_activity_bola_la_liga_spanyol"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -368,7 +367,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Champions"
+            android:name=".DrawerBola.KategoriBola.BolaLigaChampions"
             android:label="@string/title_activity_bola_liga_champions"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -376,7 +375,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Eropa"
+            android:name=".DrawerBola.KategoriBola.BolaLigaEropa"
             android:label="@string/title_activity_bola_liga_eropa"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -384,7 +383,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Piala_Dunia"
+            android:name=".DrawerBola.KategoriBola.BolaPialaDunia"
             android:label="@string/title_activity_bola_piala_dunia"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -392,7 +391,7 @@
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.Bola_Liga_Indonesia"
+            android:name=".DrawerBola.KategoriBola.BolaLigaIndonesia"
             android:label="@string/title_activity_bola_liga_indonesia"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
@@ -400,7 +399,8 @@
                 android:value=".Main.Bola" />
         </activity>
 
-        <!--<activity
+        <!--
+        <activity
             android:name=".Main.Brilio"
             android:label="@string/title_activity_brilio"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -409,8 +409,44 @@
             android:name=".Main.Fimela"
             android:label="@string/title_activity_fimela"
             android:theme="@style/AppTheme.NoActionBar" >
-        </activity>-->
+        </activity>
+        -->
 
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaHome"
+            android:label="@string/title_activity_fimela__home"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaNews"
+            android:label="@string/title_activity_fimela_news"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaFashion"
+            android:label="@string/title_activity_fimela_fashion"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaLifestyle"
+            android:label="@string/title_activity_fimela_lifestyle"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaBeauty"
+            android:label="@string/title_activity_fimela_beauty"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".DrawerFimela.MenuFimela.FimelaTravel"
+            android:label="@string/title_activity_fimela_travel"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Main.Otosia"
+            android:label="@string/title_activity_otosia"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

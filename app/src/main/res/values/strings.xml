@@ -71,6 +71,15 @@
        <!--Belum Ada Pilihan-->
     <string name="title_activity_brilio">Brilio</string>
     <string name="title_activity_fimela">Fimela</string>
+    <string name="title_activity_fimela__home">Home</string>
+    <string name="title_activity_fimela_news">News Entertainment</string>
+    <string name="title_activity_fimela_fashion">Fashion Style</string>
+    <string name="title_activity_fimela_lifestyle">Lifestyle Relationship</string>
+    <string name="title_activity_fimela_beauty">Beauty Health</string>
+    <string name="title_activity_fimela_travel">Travel Shoppes</string>
+    <string name="title_activity_otosia">Otosia</string>
+
+    <string name="action_settings">Settings</string>
 
 
 
