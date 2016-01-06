@@ -1,5 +1,6 @@
 package com.kapanlaginetwork.johnharman.Main;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.kapanlaginetwork.johnharman.DrawerFimela.Fimela_Beauty_Health;
+import com.kapanlaginetwork.johnharman.DrawerFimela.Fimela_Fashion_Style;
+import com.kapanlaginetwork.johnharman.DrawerFimela.Fimela_Lifestyle_Relationship;
+import com.kapanlaginetwork.johnharman.DrawerFimela.Fimela_News_Entertainment;
+import com.kapanlaginetwork.johnharman.DrawerFimela.Fimela_Travel_Shoppes;
+import com.kapanlaginetwork.johnharman.DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Plus;
 import com.kapanlaginetwork.johnharman.R;
 
 public class Fimela extends AppCompatActivity
@@ -82,17 +89,22 @@ public class Fimela extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camara) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.fimela_front_page) {
+            startActivity(new Intent(this, MainActivity.class));
+        } else if (id == R.id.fimela_news_entertainment) {
+            startActivity(new Intent(this, Fimela_News_Entertainment.class));
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.fimela_beauty_health) {
+            startActivity(new Intent(this, Fimela_Lifestyle_Relationship.class));
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.fimela_fashion_style) {
+            startActivity(new Intent(this, Fimela_Fashion_Style.class));
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.fimela_lifestyle_relationship) {
+            startActivity(new Intent(this, Fimela_Travel_Shoppes.class));
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.fimela_travel_shoppes) {
+            startActivity(new Intent(this, Fimela_Beauty_Health.class));
 
         }
 

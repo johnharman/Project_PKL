@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
         Button fimela = (Button) findViewById(R.id.Fimela);
 
-        //Button otosia = (Button) findViewById(R.id.Otosia);
+        Button vemale = (Button) findViewById(R.id.Vemale);
 
         /* Button btn_ptinggi = (Button) findViewById(R.id.btn_ptinggi);
 
@@ -93,26 +93,19 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, Fimela.class);
+                startActivity(new Intent(MainActivity.this, Fimela.class));
             }
         });
 
-        /*otosia.setOnClickListener(new View.OnClickListener() {
+        vemale.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, Otosia.class);
-            }
-        });*/
-       /* vemale.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, Vemale.class);
+                startActivity(new Intent(MainActivity.this, Vemale.class));
             }
         });
 
-        btn_tmusik.setOnClickListener(new View.OnClickListener() {
+       /* brilio.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {

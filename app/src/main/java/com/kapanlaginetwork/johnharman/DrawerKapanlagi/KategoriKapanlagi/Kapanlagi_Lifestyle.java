@@ -14,7 +14,7 @@ public class Kapanlagi_Lifestyle extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kapanlagi_lifestyle);
+        setContentView(R.layout.kategori_kapanlagi);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

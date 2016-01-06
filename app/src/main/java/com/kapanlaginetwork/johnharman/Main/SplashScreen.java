@@ -32,7 +32,7 @@ public class SplashScreen extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
-        pb = (ProgressBar) findViewById(R.id.progressBar1);
+        pb = (ProgressBar) findViewById(R.id.pbMain);
     }
 
     public void onStart(){

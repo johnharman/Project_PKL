@@ -1,12 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Kapanlagi"
+        android:background="@drawable/kapanlagi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Merdeka"
+        android:background="@drawable/merdeka"
+        android:layout_below="@+id/Kapanlagi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bola"
+        android:background="@drawable/bola"
+        android:layout_below="@+id/Merdeka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Brilio"
+        android:background="@drawable/brilio"
+        android:layout_below="@+id/Bola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Fimela"
+        android:background="@drawable/fimela"
+        android:layout_below="@+id/Brilio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Vemale"
+        android:background="@drawable/vemale"
+        android:layout_below="@+id/Fimela"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
+
+</ScrollView>-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/home_root"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
     <include layout="@layout/activity_main_header"/>
     <include layout="@layout/activity_main_fragment_layout"/>
     <include layout="@layout/activity_main_footer"/>
-
-
 </LinearLayout>

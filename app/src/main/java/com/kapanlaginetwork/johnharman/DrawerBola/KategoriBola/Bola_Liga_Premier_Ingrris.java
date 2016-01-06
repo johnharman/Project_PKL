@@ -14,7 +14,7 @@ public class Bola_Liga_Premier_Ingrris extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bola_liga_premier_ingrris);
+        setContentView(R.layout.kategori_bola);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

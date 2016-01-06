@@ -1,7 +1,7 @@
 <com.kapanlaginetwork.johnharman.Main.DashboardLayoutActivityMain
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:layout_weight="1"
     android:background="#f8f9fe" >
 
@@ -14,7 +14,7 @@
    <Button
         android:id="@+id/Merdeka"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/merdeka"
+        android:drawableTop="@drawable/dream"
         android:text="Merdeka.com" />
 
     <Button
@@ -40,13 +40,15 @@
         style="@style/DashboardButton"
         android:drawableTop="@drawable/brilio"
         android:text="Brilio.net" />
-
-  <!-- <Button
-        android:id="@+id/Otosia"
+    <!--<Button
+        android:id="@+id/btn_tmusik"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/otosia"
-        android:text="Otosia.com" />-->
-
-
+        android:drawableTop="@drawable/tokomusik"
+        android:text="Toko Musik" />
+    <Button
+        android:id="@+id/btn_kpemerintah"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/kantorpemerintah"
+        android:text="Kantor Pemerintah" />-->
 
 </com.kapanlaginetwork.johnharman.Main.DashboardLayoutActivityMain>

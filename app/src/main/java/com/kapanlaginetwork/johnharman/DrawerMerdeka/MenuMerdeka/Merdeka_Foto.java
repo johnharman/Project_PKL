@@ -14,7 +14,7 @@ public class Merdeka_Foto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.merdeka_foto);
+        setContentView(R.layout.kategori_merdeka);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

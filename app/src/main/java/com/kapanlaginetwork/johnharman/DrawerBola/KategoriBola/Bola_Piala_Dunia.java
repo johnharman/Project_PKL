@@ -14,7 +14,7 @@ public class Bola_Piala_Dunia extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bola_piala_dunia);
+        setContentView(R.layout.kategori_bola);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

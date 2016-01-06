@@ -1,130 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kapanlaginetwork.johnharman" >
+    package="com.kapanlaginetwork.johnharman">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
 
         <!-- main -->
         <activity
             android:name=".Main.SplashScreen"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--reader-->
+        <activity
+            android:name=".Main.rFeedDetailsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Main.rWebViewActivity"
+            android:label="@string/app_name">
+        </activity>
+
         <activity
             android:name=".Main.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
         </activity>
+
         <activity
             android:name=".Main.Kapanlagi"
             android:label="@string/title_activity_kapanlagi"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".Main.Merdeka"
             android:label="@string/title_activity_merdeka"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".Main.Bola"
             android:label="@string/title_activity_bola"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Main.Vemale"
+            android:label="@string/title_activity_vemale"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Main.Fimela"
+            android:label="@string/title_activity_fimela"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Main.Brilio"
+            android:label="@string/title_activity_brilio"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
 
         <!-- |||||||||||||||||||||||||||||||||||KAPANLAGI|||||||||||||||||||||||||||||||| -->
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiAllNews"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_All_News"
             android:label="@string/title_activity_kapanlagi_all_news"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiTopNews"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Top_News"
             android:label="@string/title_activity_kapanlagi_top_news"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.MenuKapanlagi.KapanlagiFoto"
+            android:name=".DrawerKapanlagi.MenuKapanlagi.Kapanlagi_Foto"
             android:label="@string/title_activity_kapanlagi_foto"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiSelebriti"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Selebriti"
             android:label="@string/title_activity_kapanlagi_selebriti"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiHollywood"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Hollywood"
             android:label="@string/title_activity_kapanlagi_hollywood"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiFilm"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Film"
             android:label="@string/title_activity_kapanlagi_film"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiMusic"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Music"
             android:label="@string/title_activity_kapanlagi_music"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiAsianStar"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Asian_Star"
             android:label="@string/title_activity_kapanlagi_asian"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiBollywood"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Bollywood"
             android:label="@string/title_activity_kapanlagi_bollywood"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiPlus"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Plus"
             android:label="@string/title_activity_kapanlagi_kapanlagi_plus"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
         </activity>
         <activity
-            android:name=".DrawerKapanlagi.KategoriKapanlagi.KapanlagiLifestyle"
+            android:name=".DrawerKapanlagi.KategoriKapanlagi.Kapanlagi_Lifestyle"
             android:label="@string/title_activity_kapanlagi_lifestyle"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Kapanlagi" />
@@ -132,105 +165,105 @@
 
         <!-- |||||||||||||||||||||||||||||||||||MERDEKA|||||||||||||||||||||||||||||||| -->
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaPeristiwa"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Peristiwa"
             android:label="@string/title_activity_merdeka_peristiwa"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaPolitik"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Politik"
             android:label="@string/title_activity_merdeka_politik"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaJakarta"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Jakarta"
             android:label="@string/title_activity_merdeka_jakarta"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaUang"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Uang"
             android:label="@string/title_activity_merdeka_uang"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaDunia"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Dunia"
             android:label="@string/title_activity_merdeka_dunia"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaKhas"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Khas"
             android:label="@string/title_activity_merdeka_khas"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaGaya"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Gaya"
             android:label="@string/title_activity_merdeka_gaya"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaArtis"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Artis"
             android:label="@string/title_activity_merdeka_artis"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaOlahraga"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Olahraga"
             android:label="@string/title_activity_merdeka_olahraga"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaSepakbola"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sepakbola"
             android:label="@string/title_activity_merdeka_sepakbola"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaTegnologi"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Tegnologi"
             android:label="@string/title_activity_merdeka_tegnologi"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaSehat"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Sehat"
             android:label="@string/title_activity_merdeka_sehat"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.KategoriMerdeka.MerdekaOtomotif"
+            android:name=".DrawerMerdeka.KategoriMerdeka.Merdeka_Otomotif"
             android:label="@string/title_activity_merdeka_otomotif"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
@@ -238,7 +271,7 @@
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_All_News"
             android:label="@string/title_activity_merdeka_all_news"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
@@ -246,7 +279,7 @@
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_Top_News"
             android:label="@string/title_activity_merdeka_top_news"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
@@ -254,39 +287,39 @@
         <activity
             android:name=".DrawerMerdeka.MenuMerdeka.Merdeka_Foto"
             android:label="@string/title_activity_merdeka_foto"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaPengaturan"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Pengaturan"
             android:label="@string/title_activity_merdeka_pengaturan"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaHakCipta"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Hak_Cipta"
             android:label="@string/title_activity_merdeka_hak_cipta"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaTentangKami"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Tentang_Kami"
             android:label="@string/title_activity_merdeka_tentang_kami"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
         </activity>
         <activity
-            android:name=".DrawerMerdeka.Lain2_Merdeka.MerdekaRating"
+            android:name=".DrawerMerdeka.Lain2_Merdeka.Merdeka_Rating"
             android:label="@string/title_activity_merdeka_rating"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Merdeka" />
@@ -295,110 +328,113 @@
         <!-- |||||||||||||||||||||||||||||||||||BOLANET|||||||||||||||||||||||||||||||| -->
 
         <activity
-            android:name=".DrawerBola.MenuBola.BolaBerita"
+            android:name=".DrawerBola.MenuBola.Bola_Berita"
             android:label="@string/title_activity_bola_berita"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.BolaJadwal"
+            android:name=".DrawerBola.MenuBola.Bola_Jadwal"
             android:label="@string/title_activity_bola_jadwal"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.BolaSkor"
+            android:name=".DrawerBola.MenuBola.Bola_Skor"
             android:label="@string/title_activity_bola_skor"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.MenuBola.BolaKlasemen"
+            android:name=".DrawerBola.MenuBola.Bola_Klasemen"
             android:label="@string/title_activity_bola_klasemen"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaTerkini"
+            android:name=".DrawerBola.KategoriBola.Bola_Terkini"
             android:label="@string/title_activity_bola_terkini"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaMostViewed"
+            android:name=".DrawerBola.KategoriBola.Bola_Most_Viewed"
             android:label="@string/title_activity_bola_most_viewed"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLigaPremierIngrris"
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Premier_Ingrris"
             android:label="@string/title_activity_bola_liga_premier_ingrris"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLigaItaliaSeriA"
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Italia_Seri_A"
             android:label="@string/title_activity_bola_liga_italia_seri_a"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLaLigaSpanyol"
+            android:name=".DrawerBola.KategoriBola.Bola_La_Liga_Spanyol"
             android:label="@string/title_activity_bola_la_liga_spanyol"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLigaChampions"
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Champions"
             android:label="@string/title_activity_bola_liga_champions"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLigaEropa"
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Eropa"
             android:label="@string/title_activity_bola_liga_eropa"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaPialaDunia"
+            android:name=".DrawerBola.KategoriBola.Bola_Piala_Dunia"
             android:label="@string/title_activity_bola_piala_dunia"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
         <activity
-            android:name=".DrawerBola.KategoriBola.BolaLigaIndonesia"
+            android:name=".DrawerBola.KategoriBola.Bola_Liga_Indonesia"
             android:label="@string/title_activity_bola_liga_indonesia"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Main.Bola" />
         </activity>
-
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <!--
         <activity
             android:name=".Main.Brilio"
@@ -413,39 +449,44 @@
         -->
 
         <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaHome"
-            android:label="@string/title_activity_fimela__home"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".DrawerFimela.Fimela_News_Entertainment"
+            android:label="@string/title_activity_fimlea_news_entertainment"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Fimela" />
         </activity>
         <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaNews"
-            android:label="@string/title_activity_fimela_news"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".DrawerFimela.Fimela_Fashion_Style"
+            android:label="@string/title_activity_fimela_fashion_style"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Fimela" />
         </activity>
         <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaFashion"
-            android:label="@string/title_activity_fimela_fashion"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".DrawerFimela.Fimela_Lifestyle_Relationship"
+            android:label="@string/title_activity_fimela_lifestyle_relationship"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Fimela" />
         </activity>
         <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaLifestyle"
-            android:label="@string/title_activity_fimela_lifestyle"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".DrawerFimela.Fimela_Beauty_Health"
+            android:label="@string/title_activity_fimela_beauty_health"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Fimela" />
         </activity>
         <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaBeauty"
-            android:label="@string/title_activity_fimela_beauty"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".DrawerFimela.MenuFimela.FimelaTravel"
-            android:label="@string/title_activity_fimela_travel"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".Main.Otosia"
-            android:label="@string/title_activity_otosia"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".DrawerFimela.Fimela_Travel_Shoppes"
+            android:label="@string/title_activity_fimela_travel_shoppes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main.Fimela" />
         </activity>
     </application>
 

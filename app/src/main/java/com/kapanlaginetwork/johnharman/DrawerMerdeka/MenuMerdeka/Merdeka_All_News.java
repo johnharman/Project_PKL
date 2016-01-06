@@ -14,7 +14,7 @@ public class Merdeka_All_News extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.merdeka_all_news);
+        setContentView(R.layout.kategori_merdeka);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

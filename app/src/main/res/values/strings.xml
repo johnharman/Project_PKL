@@ -26,7 +26,7 @@
         |
         |-->
 
-   <!--Merdeka Title-->
+    <!--Merdeka Title-->
     <string name="title_activity_merdeka">Merdeka.com</string>
     <string name="title_activity_merdeka_front_page">Front Page</string>
     <string name="title_activity_merdeka_all_news">All News</string>
@@ -51,7 +51,7 @@
     <string name="title_activity_merdeka_rating"> Rating</string>
 
 
-   <!--Bolanet Title-->
+    <!--Bolanet Title-->
     <string name="title_activity_bola_frontpage">Front Page</string>
     <string name="title_activity_bola">Bola</string>
     <string name="title_activity_bola_berita">Berita</string>
@@ -68,18 +68,29 @@
     <string name="title_activity_bola_piala_dunia">Piala Dunia</string>
     <string name="title_activity_bola_liga_indonesia">Liga Indonesia</string>
 
-       <!--Belum Ada Pilihan-->
+    <!--Fimela Title-->
+    <string name="title_activity_fimela_frontpage">Front Page</string>
+    <string name="title_activity_fimlea_news_entertainment">News Entertainment</string>
+    <string name="title_activity_fimela_fashion_style">Fashion Style</string>
+    <string name="title_activity_fimela_lifestyle_relationship">Lifestyle Relationship</string>
+    <string name="title_activity_fimela_beauty_health">Beauty Health</string>
+    <string name="title_activity_fimela_travel_shoppes">Travel Shoppes</string>
+
+    <!--Belum Ada Pilihan-->
     <string name="title_activity_brilio">Brilio</string>
     <string name="title_activity_fimela">Fimela</string>
-    <string name="title_activity_fimela__home">Home</string>
-    <string name="title_activity_fimela_news">News Entertainment</string>
-    <string name="title_activity_fimela_fashion">Fashion Style</string>
-    <string name="title_activity_fimela_lifestyle">Lifestyle Relationship</string>
-    <string name="title_activity_fimela_beauty">Beauty Health</string>
-    <string name="title_activity_fimela_travel">Travel Shoppes</string>
-    <string name="title_activity_otosia">Otosia</string>
+    <string name="title_activity_vemale">Vemale</string>
 
     <string name="action_settings">Settings</string>
+
+
+    <!--RSS-->
+    <string name="postviewlabel">Muslim.or.id</string>
+    <string name="head_arrowImage">head_arrowImage</string>
+    <string name="pull_to_refresh">Pull down to refresh&#8230;</string>
+    <string name="release_to_refresh">Release to refresh&#8230;</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="footer_loading">Click to load more&#8230;</string>
 
 
 

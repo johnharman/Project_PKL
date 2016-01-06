@@ -14,7 +14,7 @@ public class Merdeka_Sepakbola extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.merdeka_sepakbola);
+        setContentView(R.layout.kategori_merdeka);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

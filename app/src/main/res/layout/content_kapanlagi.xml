@@ -10,4 +10,6 @@
     tools:showIn="@layout/app_bar_kapanlagi"
     tools:context="com.kapanlaginetwork.johnharman.Main.Kapanlagi">
 
+
+
 </RelativeLayout>

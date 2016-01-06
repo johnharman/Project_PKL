@@ -2,37 +2,37 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/bola_front_page" android:icon="@android:drawable/ic_menu_camera"
+        <item android:id="@+id/bola_front_page" android:icon="@drawable/home"
             android:title="@string/title_activity_bola_frontpage" />
-        <item android:id="@+id/bola_berita" android:icon="@android:drawable/ic_menu_gallery"
+        <item android:id="@+id/bola_berita" android:icon="@drawable/allnews"
             android:title="@string/title_activity_bola_berita"/>
-        <item android:id="@+id/bola_jadwal" android:icon="@android:drawable/ic_menu_gallery"
+        <item android:id="@+id/bola_jadwal" android:icon="@drawable/jadwal"
             android:title="@string/title_activity_bola_jadwal" />
-        <item android:id="@+id/bola_skor" android:icon="@android:drawable/ic_menu_slideshow"
+        <item android:id="@+id/bola_skor" android:icon="@drawable/score_bola"
             android:title="@string/title_activity_bola_skor" />
-        <item android:id="@+id/bola_klasemen" android:icon="@android:drawable/ic_menu_manage"
+        <item android:id="@+id/bola_klasemen" android:icon="@drawable/score_bola"
             android:title="@string/title_activity_bola_klasemen" />
     </group>
 
     <item android:title="Kategori">
         <menu>
-            <item android:id="@+id/bola_terkini" android:icon="@android:drawable/ic_menu_camera"
+            <item android:id="@+id/bola_terkini" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_terkini" />
-            <item android:id="@+id/bola_most_viewed" android:icon="@android:drawable/ic_menu_gallery"
+            <item android:id="@+id/bola_most_viewed" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_most_viewed"/>
-            <item android:id="@+id/bola_liga_premier_inggris" android:icon="@android:drawable/ic_menu_gallery"
+            <item android:id="@+id/bola_liga_premier_inggris" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_liga_premier_ingrris" />
-            <item android:id="@+id/bola_liga_italia_seri_A" android:icon="@android:drawable/ic_menu_slideshow"
+            <item android:id="@+id/bola_liga_italia_seri_A" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_liga_italia_seri_a" />
-            <item android:id="@+id/bola_la_liga_spanyol" android:icon="@android:drawable/ic_menu_manage"
+            <item android:id="@+id/bola_la_liga_spanyol" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_la_liga_spanyol" />
-            <item android:id="@+id/bola_liga_champions" android:icon="@android:drawable/ic_menu_camera"
+            <item android:id="@+id/bola_liga_champions" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_liga_champions" />
-            <item android:id="@+id/bola_liga_eropa" android:icon="@android:drawable/ic_menu_gallery"
+            <item android:id="@+id/bola_liga_eropa" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_liga_eropa"/>
-            <item android:id="@+id/bola_piala_dunia" android:icon="@android:drawable/ic_menu_gallery"
+            <item android:id="@+id/bola_piala_dunia" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_piala_dunia" />
-            <item android:id="@+id/bola_liga_indonesia" android:icon="@android:drawable/ic_menu_slideshow"
+            <item android:id="@+id/bola_liga_indonesia" android:icon="@drawable/bullet_icon"
                 android:title="@string/title_activity_bola_liga_indonesia" />
 
         </menu>

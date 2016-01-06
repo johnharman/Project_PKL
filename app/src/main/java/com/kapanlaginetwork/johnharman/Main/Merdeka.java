@@ -11,22 +11,22 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaDunia;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaGaya;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaJakarta;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaKhas;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaOlahraga;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaOtomotif;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaPeristiwa;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaPolitik;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaSehat;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaSepakbola;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaTegnologi;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.MerdekaUang;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.MerdekaHakCipta;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.MerdekaPengaturan;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.MerdekaRating;
-import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.MerdekaTentangKami;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Dunia;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Gaya;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Jakarta;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Khas;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Olahraga;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Otomotif;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Peristiwa;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Politik;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Sehat;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Sepakbola;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Tegnologi;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.KategoriMerdeka.Merdeka_Uang;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.Merdeka_Hak_Cipta;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.Merdeka_Pengaturan;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.Merdeka_Rating;
+import com.kapanlaginetwork.johnharman.DrawerMerdeka.Lain2_Merdeka.Merdeka_Tentang_Kami;
 import com.kapanlaginetwork.johnharman.DrawerMerdeka.MenuMerdeka.Merdeka_All_News;
 import com.kapanlaginetwork.johnharman.DrawerMerdeka.MenuMerdeka.Merdeka_Foto;
 import com.kapanlaginetwork.johnharman.DrawerMerdeka.MenuMerdeka.Merdeka_Top_News;
@@ -111,55 +111,55 @@ public class Merdeka extends AppCompatActivity
             startActivity(new Intent(this, Merdeka_Foto.class));
 
         } else if (id == R.id.merdeka_peristiwa) {
-            startActivity(new Intent(this, MerdekaPeristiwa.class));
+            startActivity(new Intent(this, Merdeka_Peristiwa.class));
 
         } else if (id == R.id.merdeka_politik) {
-            startActivity(new Intent(this, MerdekaPolitik.class));
+            startActivity(new Intent(this, Merdeka_Politik.class));
 
         } else if (id == R.id.merdeka_jakarta) {
-            startActivity(new Intent(this, MerdekaJakarta.class));
+            startActivity(new Intent(this, Merdeka_Jakarta.class));
 
         } else if (id == R.id.merdeka_uang) {
-            startActivity(new Intent(this, MerdekaUang.class));
+            startActivity(new Intent(this, Merdeka_Uang.class));
 
         } else if (id == R.id.merdeka_dunia) {
-            startActivity(new Intent(this, MerdekaDunia.class));
+            startActivity(new Intent(this, Merdeka_Dunia.class));
 
         } else if (id == R.id.merdeka_khas) {
-            startActivity(new Intent(this, MerdekaKhas.class));
+            startActivity(new Intent(this, Merdeka_Khas.class));
 
         } else if (id == R.id.merdeka_gaya) {
-            startActivity(new Intent(this, MerdekaGaya.class));
+            startActivity(new Intent(this, Merdeka_Gaya.class));
 
         } else if (id == R.id.merdeka_artis) {
             startActivity(new Intent(this, Merdeka_All_News.class));
 
         } else if (id == R.id.merdeka_olahraga) {
-            startActivity(new Intent(this, MerdekaOlahraga.class));
+            startActivity(new Intent(this, Merdeka_Olahraga.class));
 
         } else if (id == R.id.merdeka_sepakbola) {
-            startActivity(new Intent(this, MerdekaSepakbola.class));
+            startActivity(new Intent(this, Merdeka_Sepakbola.class));
 
         } else if (id == R.id.merdeka_tegnologi) {
-            startActivity(new Intent(this, MerdekaTegnologi.class));
+            startActivity(new Intent(this, Merdeka_Tegnologi.class));
 
         } else if (id == R.id.merdeka_sehat) {
-            startActivity(new Intent(this, MerdekaSehat.class));
+            startActivity(new Intent(this, Merdeka_Sehat.class));
 
         } else if (id == R.id.merdeka_otomotif) {
-            startActivity(new Intent(this, MerdekaOtomotif.class));
+            startActivity(new Intent(this, Merdeka_Otomotif.class));
 
         } else if (id == R.id.merdeka_pengaturan) {
-            startActivity(new Intent(this, MerdekaPengaturan.class));
+            startActivity(new Intent(this, Merdeka_Pengaturan.class));
 
         } else if (id == R.id.merdeka_rating) {
-            startActivity(new Intent(this, MerdekaRating.class));
+            startActivity(new Intent(this, Merdeka_Rating.class));
 
         } else if (id == R.id.merdeka_hak_cipta) {
-            startActivity(new Intent(this, MerdekaHakCipta.class));
+            startActivity(new Intent(this, Merdeka_Hak_Cipta.class));
 
         } else if (id == R.id.merdeka_tentang_kami) {
-            startActivity(new Intent(this, MerdekaTentangKami.class));
+            startActivity(new Intent(this, Merdeka_Tentang_Kami.class));
 
         }
 

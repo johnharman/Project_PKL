@@ -2,23 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
-            android:title="Import" />
-        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:id="@+id/fimela_front_page" android:icon="@drawable/home"
+            android:title="@string/title_activity_fimela_frontpage" />
+        <item android:id="@+id/fimela_news_entertainment" android:icon="@drawable/home"
+            android:title="@string/title_activity_fimlea_news_entertainment" />
+        <item android:id="@+id/fimela_fashion_style" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_activity_fimela_fashion_style" />
+        <item android:id="@+id/fimela_lifestyle_relationship" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/title_activity_fimela_lifestyle_relationship" />
+        <item android:id="@+id/fimela_beauty_health" android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/title_activity_fimela_beauty_health" />
+        <item android:id="@+id/fimela_travel_shoppes" android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/title_activity_fimela_travel_shoppes" />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
-                android:title="Share" />
-            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
 
 </menu>

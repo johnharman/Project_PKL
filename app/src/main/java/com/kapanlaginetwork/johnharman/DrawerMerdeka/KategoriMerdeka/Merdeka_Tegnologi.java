@@ -14,7 +14,7 @@ public class Merdeka_Tegnologi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.merdeka_tegnologi);
+        setContentView(R.layout.kategori_merdeka);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

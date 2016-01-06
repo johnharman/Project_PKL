@@ -14,7 +14,7 @@ public class Kapanlagi_Hollywood extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.kapanlagi_hollywood);
+        setContentView(R.layout.kategori_kapanlagi);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
